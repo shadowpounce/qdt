@@ -1,0 +1,4 @@
+.container::before,
+.container::after {
+  display: none !important;
+}
