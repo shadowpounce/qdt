@@ -1569,6 +1569,7 @@ const graphsData = [
 
 const graphs = document.querySelectorAll('.graph')
 
-graphs.forEach((graph, idx) => {
+graphs.map((graph, idx) => {
+  console.log(graph)
   graph.innerHTML = graphsData[idx]
 })
