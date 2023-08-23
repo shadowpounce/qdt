@@ -1569,6 +1569,8 @@ const graphsData = [
 
 const graphs = document.querySelectorAll('.graph')
 
+console.log(graphs)
+
 graphs.map((graph, idx) => {
   console.log(graph)
   graph.innerHTML = graphsData[idx]
